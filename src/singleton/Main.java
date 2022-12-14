@@ -15,6 +15,7 @@ public class Main {
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         }
+        System.out.println("Журнал:");
         logger.show();
     }
 }
